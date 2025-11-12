@@ -11,4 +11,6 @@ Percobaan 2
 1. tidak terjadi perubahan, karena length dari nilaiAkhir adalah 10
 2. nilaiAkhir.length aadalah jumlah elemen/isi dari array, jadi kondisi tersebut untuk cek apakah i kurang dari jumlah elemen array tersebut
 3. setelah selesai menginputkan 10 nilai, program akan melakukan looping untuk mengecek mahasiswa yang memiliki nilai di atas 70 dan mencetak "lulus"
-4. 
+
+Percobaan 4
+1. statement break berarti mengehntikan secara paksa dan keluar dari pengecekan kondisi
