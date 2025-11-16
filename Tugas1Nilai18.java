@@ -20,8 +20,15 @@ public class Tugas1Nilai18 {
             }
         }
 
+
+        System.out.println();
         System.out.println("Nilai rata - rata : "+jmlnilai/jmlmhs);
         System.out.println("Nilai terendah : "+rendah);
         System.out.println("Nilai tertinggi : "+tinggi);
+        System.out.println("---- DAFTAR NILAI ----");
+
+        for (int i = 0 ; i < jmlmhs ; i++) {
+            System.out.println("Nilai mahasiswa "+(i+1)+" = "+nilai[i]);
+        }
     }
 }
