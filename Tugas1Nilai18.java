@@ -12,9 +12,16 @@ public class Tugas1Nilai18 {
             System.out.print("Masukkan nilai mahasiwa ke "+(i+1)+" = ");
             nilai[i] = sc.nextInt();
             jmlnilai += nilai[i];
+            if (nilai[i] > tinggi) {
+                tinggi = nilai[i];
+            }
+            if (nilai[i] < rendah) {
+                rendah = nilai[i];
+            }
         }
 
-        System.out.print("Nilai rata - rata : "+jmlnilai/jmlmhs);
-
+        System.out.println("Nilai rata - rata : "+jmlnilai/jmlmhs);
+        System.out.println("Nilai terendah : "+rendah);
+        System.out.println("Nilai tertinggi : "+tinggi);
     }
 }
