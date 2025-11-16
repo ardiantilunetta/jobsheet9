@@ -16,6 +16,10 @@ public class Tugas3SearchMenu18 {
             }
         }
 
-        
+        if (hasil = true) {
+            System.out.println(cari+" tersedia");
+        } else {
+            System.out.println(cari+" tidak ditemukan");
+        }
     }
 }
