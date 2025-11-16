@@ -17,11 +17,13 @@ public class Tugas2Cafe18 {
             nama[i] = sc.nextLine();
             System.out.print("Harga = ");
             harga[i] = sc.nextInt();
+            totalbiaya += harga[i];
         }
 
         System.out.println("---- DAFTAR PESANAN ----");
         for (int i = 0 ; i < jmlpsn ; i++) {
-            System.out.println(nama[i]+"\t\t"+harga[i]);
+            System.out.println(nama[i]+"\n-> "+harga[i]);
         }
+        System.out.println("TOTAL HARGA = "+totalbiaya);
     }
 }
